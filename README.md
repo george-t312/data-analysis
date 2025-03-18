@@ -2,7 +2,7 @@
 
 **NOTES:** 
 1) `results_local/` folder contains the results that were obtained by executing the python program on my machine.
-2) `models/` folder contains both the full model and the shortened version. I used the shortened version for faster execution time.
+2) `models/` folder contains a shortened version of the model. I used it for faster execution time. The full model can be installed by executing the python script `download_model.py`
 
 ### Requirements
 `python 3.11.9`
