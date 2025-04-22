@@ -24,8 +24,15 @@ pip install -r requirements.txt
 python3.11 -m spacy download en_core_web_sm
 ```
 ```
-mkdir results && mkdir nltk_data
-```
-```
 NLTK_DATA="./nltk_data" python3.11 process_data.py
 ```
+
+### Visualizations
+
+Below are topic modeling visualizations generated during the analysis:
+
+**LDA Topic Visualization**  
+![LDA Topics](results_local/visualized_lda_topics.png)
+
+**LSA Topic Visualization**  
+![LSA Topics](results_local/visualized_lsa_topics.png)
