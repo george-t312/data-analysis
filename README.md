@@ -24,6 +24,9 @@ pip install -r requirements.txt
 python3.11 -m spacy download en_core_web_sm
 ```
 ```
+mkdir nltk_data results
+```
+```
 NLTK_DATA="./nltk_data" python3.11 process_data.py
 ```
 
